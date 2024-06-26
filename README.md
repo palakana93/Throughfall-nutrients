@@ -2,7 +2,7 @@
 Throughfall nutrients from Gigante, Panama
 
 ## Data files:
-(1) Rainfall and throughfall nutrient data ("GFX Combined Master Data.csv");\n
+(1) Rainfall and throughfall nutrient data ("GFX Combined Master Data.csv");  
       (1a) Subsetted and processed rainfall and throughfall data ("GFXdata.RData");
 (2) Litter mass data ("GIG_FERTILIZAR_LITTER_20200602.DBF");
 (3) Litter nutrient concentration data ("Gigante 2012 Master Data File PLANTS unified codes for wood with final isotopes FERTILIZER litter.txt");

@@ -5,6 +5,12 @@ Throughfall nutrients from Gigante, Panama
 ```
 (1) Rainfall and throughfall nutrient data ("GFX Combined Master Data.csv")
      (1a) Subsetted and processed rainfall and throughfall data ("GFXdata.RData")
+          This file contains five data table R "objects"
+             (1) "data" contains all data from "GFX Combined Master Data.csv"
+             (2) "data.nutrients" omits observations with unusable nutrient data (e.g., samples where nutrient data was not obtained, DI water controls)
+             (3) "data.LAI" omits observations with unusable LAI data (7 canopy photos were unusable due to sunlight penetration into foliage)
+             (4) "dataForPlots" omits observations with either unusable nutrient or unusable LAI data
+             (5) "dataForStats" is "dataForPlots" with rain samples removed
 (2) Plot-level litter nutrients - processed data ("Litter merged_plot means.csv")
      (2a) Litter mass - raw data ("GIG_FERTILIZAR_LITTER_20200602.DBF")
      (2b) Litter nutrient concentration - raw data ("Gigante 2012 Master Data File PLANTS unified codes for wood with final isotopes FERTILIZER litter.txt")

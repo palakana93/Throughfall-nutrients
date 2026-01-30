@@ -108,6 +108,8 @@ Run the `01_process_*` scripts first to generate processed data. All remaining s
 
 For a clean run, start a fresh R session and execute the scripts in the recommended order above. Many scripts begin by clearing the workspace when run interactively to avoid reliance on cached objects. 
 
+This project uses {renv}. Run renv::restore() to recreate the package environment.
+
 ------------------------------------------------------------------------
 
 ## Acknowledgements

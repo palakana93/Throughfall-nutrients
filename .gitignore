@@ -1,0 +1,23 @@
+
+## renv
+renv/library/
+
+## RStudio
+.Rhistory
+.RData
+.Rproj.user/
+.Rprofile
+.DS_Store
+
+## Outputs
+figures/
+tables/
+
+## Data (selective)
+data/litter/Litter merged_plot means.csv
+data/litter/preprocessed_litter_mass_20200602.DBF
+data/throughfall/GFX Combined Master Data.csv
+
+## Draft R scripts
+scripts/draft scripts/
+

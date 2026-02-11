@@ -13,7 +13,7 @@ renv/library/
 figures/
 tables/
 
-## Data (selective)
+## Data — local legacy / pre-processing files (not required for analysis)
 data/litter/Litter merged_plot means.csv
 data/litter/preprocessed_litter_mass_20200602.DBF
 data/throughfall/GFX Combined Master Data.csv
